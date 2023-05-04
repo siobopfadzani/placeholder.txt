@@ -2,7 +2,9 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] arg) {
-        lamp r = new lamp();
+        lamp p = new lamp();
+        System.out.println(p.color);
+        System.out.println(p.type);
 
     }
 }
